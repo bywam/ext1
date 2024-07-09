@@ -8,7 +8,7 @@ import (
 
 // init is called by the Go runtime at application startup.
 func init() {
-	modules.Register("k6/x/compare", new(Ext1))
+	modules.Register("k6/x/ext1", new(Ext1))
 }
 
 // Compare is the type for our custom API.
